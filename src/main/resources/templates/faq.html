@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KOH | FAQ</title>
+  <link rel="stylesheet" th:href="@{/css/styles.css}" href="/css/styles.css">
+</head>
+<body class="faq-page">
+  <main class="faq-main">
+    <section class="faq-section">
+      <div class="faq-decor" aria-hidden="true">
+        <span class="faq-decor__circle faq-decor__circle--top-lg"></span>
+        <span class="faq-decor__circle faq-decor__circle--top-sm"></span>
+        <span class="faq-decor__circle faq-decor__circle--top-xs"></span>
+        <span class="faq-decor__circle faq-decor__circle--q01"></span>
+        <span class="faq-decor__circle faq-decor__circle--q02"></span>
+        <span class="faq-decor__circle faq-decor__circle--q03"></span>
+        <span class="faq-decor__circle faq-decor__circle--q04"></span>
+        <span class="faq-decor__circle faq-decor__circle--q05"></span>
+        <span class="faq-decor__circle faq-decor__circle--q06"></span>
+        <span class="faq-decor__circle faq-decor__circle--q07"></span>
+        <span class="faq-decor__circle faq-decor__circle--q08"></span>
+        <span class="faq-decor__circle faq-decor__circle--q09"></span>
+        <span class="faq-decor__circle faq-decor__circle--q10"></span>
+        <span class="faq-decor__circle faq-decor__circle--q11"></span>
+        <span class="faq-decor__circle faq-decor__circle--tail"></span>
+      </div>
+
+      <div class="faq-section__inner">
+        <h1 class="faq-title">FAQ（よくあるご質問）</h1>
+
+        <ol class="faq-list">
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q1. 初めてでも参加できますか？</h2>
+            <p class="faq-item__answer">はい。初めての方でも安心して進められるよう、香り選びから仕上げまでスタッフがサポートします。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q2. 体験の流れを教えてください。</h2>
+            <p class="faq-item__answer">「香りを選ぶ → 調香する → 完成・持ち帰り」の流れです。20種類の香料からお好みの5種類を選び、バランスを整えながら仕立てます。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q3. 所要時間はどれくらいですか？</h2>
+            <p class="faq-item__answer">目安は約60分です。混雑状況により前後する場合があります。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q4. 完成品は持ち帰れますか？</h2>
+            <p class="faq-item__answer">はい。完成した香りは当日お持ち帰りいただけます。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q5. 香り選びに迷った場合はどうなりますか？</h2>
+            <p class="faq-item__answer">スタッフが好みの方向性を伺いながら、候補を絞るところからお手伝いします。無理に即決する必要はありません。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q6. アレルギーや体調が心配です。</h2>
+            <p class="faq-item__answer">香料を試す工程があります。ご不安がある場合は、事前にお申し出ください。体調に合わせて無理のない範囲でご案内します。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q7. 服装や持ち物は必要ですか？</h2>
+            <p class="faq-item__answer">特別な持ち物は不要です。香料を扱うため、念のため汚れてもよい服装をおすすめします。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q8. 同伴者は入れますか？</h2>
+            <p class="faq-item__answer">スペースに限りがあるため、同伴は原則ご遠慮いただく場合があります。事情がある場合は事前にご相談ください。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q9. 遅刻した場合はどうなりますか？</h2>
+            <p class="faq-item__answer">遅刻された場合、体験内容の一部を短縮することがあります。開始時刻に間に合わない場合は、分かり次第ご連絡ください。</p>
+          </li>
+          <li class="faq-item">
+            <h2 class="faq-item__question">Q10. 予約・キャンセル・変更について教えてください。</h2>
+            <p class="faq-item__answer">ご予約はこのサイト内の予約フォームから受け付けています。キャンセルや変更の条件は、送信後にご案内する内容をご確認ください。</p>
+          </li>
+        </ol>
+
+        <div class="faq-cta">
+          <a class="btn btn--primary faq-cta__button" href="/reserve" th:href="@{/reserve}">予約フォームへ進む</a>
+          <p class="faq-cta__note">※このサイト内の予約フォームへ進みます</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="faq-footer">
+    <div class="faq-footer__inner">
+      <a class="logo faq-footer__logo" href="/" th:href="@{/}" aria-label="KOH ホーム">
+        <img class="logo__image" src="assets/images/common/koh-logo-new.png" alt="KOH">
+      </a>
+      <a class="faq-footer__top-link nav-link" href="/" th:href="@{/}">TOPページに戻る</a>
+      <small class="faq-footer__copyright">©KOH</small>
+    </div>
+  </footer>
+</body>
+</html>
